@@ -1,0 +1,15 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+    grid-gap: 10px; /* Adjusts the gap between grid items */
+    max-width: 300px; /* Adjust based on your preference */
+    margin: auto; /* Center the grid horizontally */
+}
+
+.grid-item {
+    background-color: #f0f0f0; /* Light grey background, adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust based on your preference */
+}
